@@ -1,7 +1,11 @@
-# cd ; nvm install v12.18.0
+#!/usr/bin/env bash
+
+PROJECT_NAME="${1}"
 TIMENOW="$(date '+%Y%m%d-%OH%OM%OS')"
 
-take ${DEV:-$HOME/workspace}/nodejs-${TIMENOW}
+# Init
+mkdir -p "${DEV:-$HOME/workspace}/${PROJECT_NAME:-node-${TIMENOW}}"
+cd "${DEV:-$HOME/workspace}/${PROJECT_NAME:-node-${TIMENOW}}"
 yarn init -y
 yarn add express
 yarn add nodemon -D

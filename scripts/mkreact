@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+PROJECT_NAME="${1}"
+TIMENOW="$(date '+%Y%m%d-%OH%OM%OS')"
+
+# Init
+mkdir -p "${DEV:-$HOME/workspace}/${PROJECT_NAME:-react-${TIMENOW}}"
+cd "${DEV:-$HOME/workspace}/${PROJECT_NAME:-react-${TIMENOW}}"
+mkdir public src
+yarn init -y
+yarn add react react-dom
+# Libs
+# yarn add 

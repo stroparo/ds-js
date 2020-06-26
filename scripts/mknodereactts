@@ -7,7 +7,8 @@ TIMENOW="$(date '+%Y%m%d-%OH%OM%OS')"
 # Node
 
 # Init
-take "${DEV:-$HOME/workspace}/${PROJECT_NAME:-nodereactts-${TIMENOW}}"
+mkdir -p "${DEV:-$HOME/workspace}/${PROJECT_NAME:-nodereactts-${TIMENOW}}"
+cd "${DEV:-$HOME/workspace}/${PROJECT_NAME:-nodereactts-${TIMENOW}}"
 yarn init -y
 yarn add express
 yarn add -D @types/express
