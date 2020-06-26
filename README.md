@@ -16,6 +16,6 @@ If you still do not have Daily Shells installed in your environment, follow the 
 
 Then with a new terminal emulator opened after having just installed Daily Shells, just run:
 
-```dsplug pluginname```
+```dsplug ds-js```
 
 Voilá, this plugin's scripts will be ready to be executed!
