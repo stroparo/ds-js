@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+PROJECT_NAME="${1}"
+TIMENOW="$(date '+%Y%m%d-%OH%OM%OS')"
+
+# #############################################################################
+# Node
+
+# Init
+take "${DEV:-$HOME/workspace}/${PROJECT_NAME:-nodereactts-${TIMENOW}}"
+yarn init -y
+yarn add express
+yarn add -D @types/express
+# TypeScript:
+yarn add -D ts-node ts-node-dev typescript
+npx tsc --init
+# Libs
+yarn add uuidv4
+yarn add knex sqlite3
+yarn add cors ; yarn add -D @types/cors
+
+# #############################################################################
+# React
+
+cd ${DEV:-$HOME/workspace}
+npx create-react-app react-${TIMENOW} --template=typescript
