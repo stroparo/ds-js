@@ -5,5 +5,5 @@ take ${DEV:-$HOME/workspace}/nodejs-${TIMENOW}
 yarn init -y
 yarn add express
 yarn add nodemon -D
-# Libs:
+# Libs
 yarn add uuidv4
