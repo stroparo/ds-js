@@ -2,9 +2,9 @@
 
 This contains JavaScript related shell scripts to bootstrap JavaScript projects such as Node, React or both. Options for TypeScript are also available.
 
-You can just clone this, execute ```chmod +x scripts/*``` inside the cloned directory and add that scripts directory to the PATH, but there is a much easier way which is using this as a Daily Shells plugin!
+You can just clone this, execute ```chmod +x scripts/*``` inside the cloned directory and add that scripts directory to the PATH...
 
-**But there is an easier way!**
+**... but there is a __much easier__ way!**
 
 Read on:
 
