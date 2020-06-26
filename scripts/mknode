@@ -1,0 +1,9 @@
+# cd ; nvm install v12.18.0
+TIMENOW="$(date '+%Y%m%d-%OH%OM%OS')"
+
+take ${DEV:-$HOME/workspace}/nodejs-${TIMENOW}
+yarn init -y
+yarn add express
+yarn add nodemon -D
+# Libs:
+yarn add uuidv4
