@@ -4,7 +4,7 @@ This contains JavaScript related shell scripts to bootstrap JavaScript projects 
 
 You can just clone this, execute ```chmod +x scripts/*``` inside the cloned directory and add that scripts directory to the PATH...
 
-**... but there is a __much easier__ way!**
+**... but there is a *much easier* way!**
 
 Read on:
 
