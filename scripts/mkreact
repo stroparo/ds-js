@@ -9,5 +9,11 @@ cd "${DEV:-$HOME/workspace}/${PROJECT_NAME:-react-${TIMENOW}}"
 mkdir public src
 yarn init -y
 yarn add react react-dom
+yarn add @babel/core @babel/preset-env @babel/preset-react webpack webpack-cli
+yarn add @babel/cli
+yarn add babel-loader
+yarn add webpack-dev-server -D
+yarn add style-loader css-loader
+
 # Libs
 # yarn add 

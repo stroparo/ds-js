@@ -12,9 +12,11 @@ cd "${DEV:-$HOME/workspace}/${PROJECT_NAME:-nodereactts-${TIMENOW}}"
 yarn init -y
 yarn add express
 yarn add -D @types/express
+
 # Init TypeScript
 yarn add -D ts-node ts-node-dev typescript
 npx tsc --init
+
 # Libs
 yarn add uuidv4
 yarn add knex sqlite3
