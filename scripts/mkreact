@@ -14,6 +14,7 @@ yarn add @babel/cli
 yarn add babel-loader
 yarn add webpack-dev-server -D
 yarn add style-loader css-loader
+yarn add file-loader
 
 # Libs
-# yarn add 
+yarn add axios
