@@ -11,4 +11,5 @@ yarn add express
 yarn add nodemon -D
 
 # Libs
+yarn add cors
 yarn add uuidv4
